@@ -1,0 +1,14 @@
+{
+  // Cloudflare Workers 設定ファイル
+  // https://developers.cloudflare.com/workers/wrangler/configuration/
+
+  "name": "neon-game",
+
+  // 静的アセットをそのままホスティングする
+  "assets": {
+    "directory": "."
+  },
+
+  // Workers ランタイムのバージョン（静的配信のみなので不要だが明示しておく）
+  "compatibility_date": "2025-09-25"
+}
